@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Соглашение о конфиденциальности — FLOLUX</title>
+  <style>
+    :root{
+      --bg:#fffaf0; /* слегка тёплый фон, гармонирует с основной палитрой */
+      --fg:#2e2b1f;
+      --accent:#5b4618;
+      --muted:#6b6b6b;
+      --card:#ffffff;
+    }
+    html,body{margin:0;padding:0;background:var(--bg);color:var(--fg);font:16px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Ubuntu,"Helvetica Neue",Arial,"Noto Sans","Apple Color Emoji","Segoe UI Emoji";}
+    .wrap{max-width:980px;margin:0 auto;padding:48px 20px;}
+    header{margin-bottom:24px}
+    h1{font-size:32px;line-height:1.2;margin:0 0 8px;font-weight:700;letter-spacing:.02em}
+    .sub{color:var(--muted);margin-bottom:24px}
+    h2{font-size:20px;margin:28px 0 8px;color:var(--accent)}
+    p,li{margin:8px 0}
+    ul{padding-left:20px}
+    .card{background:var(--card);border:1px solid #eee;border-radius:14px;padding:24px}
+    a{color:var(--accent);text-decoration:underline}
+    .back{display:inline-block;margin-top:24px}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <h1>Соглашение о конфиденциальности</h1>
+      <div class="sub">Обновлено: <span id="date"></span> · FLOLUX</div>
+    </header>
+
+    <div class="card">
+      <h2>1. Общие положения</h2>
+      <p>Это соглашение описывает, как мы собираем, используем и храним персональные данные пользователей сайта FLOLUX.</p>
+
+      <h2>2. Какие данные мы можем собирать</h2>
+      <ul>
+        <li>Имя и контактные данные (телефон, Telegram, e‑mail), указанные при оформлении заказа.</li>
+        <li>Данные доставки (адрес, комментарии к заказу).</li>
+        <li>Технические данные: cookies, IP‑адрес, сведения о браузере и устройстве.</li>
+      </ul>
+
+      <h2>3. Цели обработки</h2>
+      <ul>
+        <li>Оформление и доставка заказов.</li>
+        <li>Связь с клиентом по вопросам заказа.</li>
+        <li>Улучшение качества сервиса и аналитика.</li>
+      </ul>
+
+      <h2>4. Передача третьим лицам</h2>
+      <p>Мы не передаём персональные данные третьим лицам, за исключением курьерских служб и платёжных провайдеров — строго в объёме, необходимом для выполнения заказа и требований закона.</p>
+
+      <h2>5. Срок хранения</h2>
+      <p>Данные хранятся не дольше, чем это необходимо для целей обработки, либо в сроки, установленные законодательством.</p>
+
+      <h2>6. Права пользователя</h2>
+      <ul>
+        <li>Получить сведения о своих данных.</li>
+        <li>Запросить исправление или удаление данных.</li>
+        <li>Отозвать согласие на обработку.</li>
+      </ul>
+
+      <h2>7. Контакты</h2>
+      <p>По вопросам конфиденциальности напишите нам в Telegram: <a href="https://t.me/flo_llux" rel="noopener">t.me/flo_llux</a>.</p>
+
+      <a class="back" href="index.html">← Вернуться на главную</a>
+    </div>
+  </div>
+  <script>
+    document.getElementById('date').textContent = new Date().toLocaleDateString('ru-RU');
+  </script>
+</body>
+</html>
